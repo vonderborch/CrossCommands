@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{1C7E8046-02F5-4CD7-889E-046457C72C9F}|Unit Tests">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.test.CrossCommands.Test PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="source/CrossCommands/CrossCommands.cs">
+    <Files>
+      <File FileName="source/CrossCommands/CrossCommands.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CrossCommands" expanded="True">
+            <Node name="source" expanded="True">
+              <Node name="CrossCommands" expanded="True">
+                <Node name="CrossCommands.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="test" expanded="True">
+              <Node name="CrossCommands.Test" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

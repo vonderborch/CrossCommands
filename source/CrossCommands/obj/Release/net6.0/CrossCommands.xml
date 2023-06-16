@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CrossCommands</name>
+    </assembly>
+    <members>
+        <member name="T:CrossCommands.Cross">
+            <summary>
+            Executes a command regardless of operating system
+            </summary>
+        </member>
+        <member name="F:CrossCommands.Cross.lazy">
+            <summary>
+            The lazy
+            </summary>
+        </member>
+        <member name="P:CrossCommands.Cross.Commands">
+            <summary>
+            Gets the instance.
+            </summary>
+            <value>
+            The instance.
+            </value>
+        </member>
+        <member name="M:CrossCommands.Cross.#ctor">
+            <summary>
+            Initializes the CrossCommands class. Mostly used for determining what platform we're running on
+            </summary>
+        </member>
+        <member name="M:CrossCommands.Cross.RunCommand(System.String,System.String,System.Collections.Generic.List{System.String},System.Boolean,System.Boolean)">
+            <summary>
+            Executes the command in the specified working directory
+            </summary>
+            <param name="directory">The working directory to execute the command in</param>
+            <param name="command">The command to execute</param>
+            <param name="arguments">Arguments for the command</param>
+            <param name="waitForCompletion">True to wait for the command to finish, False otherwise</param>
+            <param name="raiseOnError">True to raise on error, False otherwise</param>
+            <returns>True if command completed without error, False otherwise</returns>
+            <exception cref="T:System.NotImplementedException">The OS is unsupported by CrossCommands</exception>
+        </member>
+    </members>
+</doc>

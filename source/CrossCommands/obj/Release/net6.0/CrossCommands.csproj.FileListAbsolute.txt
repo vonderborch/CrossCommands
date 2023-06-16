@@ -1,0 +1,12 @@
+/Users/christianwebber/Dropbox/Projects/CrossCommands/release/net6.0/CrossCommands.deps.json
+/Users/christianwebber/Dropbox/Projects/CrossCommands/release/net6.0/CrossCommands.dll
+/Users/christianwebber/Dropbox/Projects/CrossCommands/release/net6.0/CrossCommands.xml
+/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/obj/Release/net6.0/CrossCommands.csproj.AssemblyReference.cache
+/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/obj/Release/net6.0/CrossCommands.GeneratedMSBuildEditorConfig.editorconfig
+/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/obj/Release/net6.0/CrossCommands.AssemblyInfoInputs.cache
+/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/obj/Release/net6.0/CrossCommands.AssemblyInfo.cs
+/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/obj/Release/net6.0/CrossCommands.csproj.CoreCompileInputs.cache
+/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/obj/Release/net6.0/CrossCommands.dll
+/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/obj/Release/net6.0/refint/CrossCommands.dll
+/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/obj/Release/net6.0/CrossCommands.xml
+/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/obj/Release/net6.0/ref/CrossCommands.dll
