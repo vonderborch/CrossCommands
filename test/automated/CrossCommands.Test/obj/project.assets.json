@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net7.0": {
       "Microsoft.CodeCoverage/17.3.2": {
         "type": "package",
         "compile": {
@@ -965,9 +965,9 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "CrossCommands/1.0.0": {
+      "CrossCommands/1.1.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
           "bin/placeholder/CrossCommands.dll": {}
         },
@@ -3879,15 +3879,15 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "CrossCommands/1.0.0": {
+    "CrossCommands/1.1.0": {
       "type": "project",
       "path": "../../../source/CrossCommands/CrossCommands.csproj",
       "msbuildProject": "../../../source/CrossCommands/CrossCommands.csproj"
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "CrossCommands >= 1.0.0",
+    "net7.0": [
+      "CrossCommands >= 1.1.0",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "NUnit >= 3.13.3",
       "NUnit3TestAdapter >= 4.2.1"
@@ -3909,15 +3909,15 @@
         "/Users/christianwebber/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net7.0"
       ],
       "sources": {
         "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {
             "/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj": {
               "projectPath": "/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj"
@@ -3932,8 +3932,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",

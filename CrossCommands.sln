@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 		CODEOWNERS = CODEOWNERS
 		LICENSE = LICENSE
 		README.md = README.md
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{9218789b-72b8-4679-a8f1-338cc4fd0167}"
@@ -40,13 +42,14 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{D0C0940A-7311-4FE2-B253-49AD357A111D} = {9218789b-72b8-4679-a8f1-338cc4fd0167}
-		{1C7E8046-02F5-4CD7-889E-046457C72C9F} = {41ca25b2-c764-4eec-8800-667cea04c231}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {GUID05}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		test\manual\Velentr.DevEnv\Velentr.DevEnv.projitems*{227895c9-a4fd-43ed-807b-87af42d69a34}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		version = 1.1.0
 	EndGlobalSection
 EndGlobal

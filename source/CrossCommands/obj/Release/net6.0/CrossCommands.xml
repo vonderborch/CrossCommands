@@ -27,7 +27,7 @@
             Initializes the CrossCommands class. Mostly used for determining what platform we're running on
             </summary>
         </member>
-        <member name="M:CrossCommands.Cross.RunCommand(System.String,System.String,System.Collections.Generic.List{System.String},System.Boolean,System.Boolean)">
+        <member name="M:CrossCommands.Cross.RunCommand(System.String,System.String,System.Collections.Generic.List{System.String},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Diagnostics.DataReceivedEventHandler,System.Diagnostics.DataReceivedEventHandler)">
             <summary>
             Executes the command in the specified working directory
             </summary>
@@ -36,6 +36,12 @@
             <param name="arguments">Arguments for the command</param>
             <param name="waitForCompletion">True to wait for the command to finish, False otherwise</param>
             <param name="raiseOnError">True to raise on error, False otherwise</param>
+            <param name="createNewWindow">True to create a new window, False otherwise</param>
+            <param name="redirectStandardInput">True to redirect input, False otherwise</param>
+            <param name="redirectStandardOutput">True to redirect output, False otherwise</param>
+            <param name="redirectStandardError">True to redirect error, False otherwise</param>
+            <param name="standardOutputMethod">The method to use for standard error</param>
+            <param name="errorOutputMethod">The method to use for standard input</param>
             <returns>True if command completed without error, False otherwise</returns>
             <exception cref="T:System.NotImplementedException">The OS is unsupported by CrossCommands</exception>
         </member>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5Z+kOuIiXH/O6ZKwA+X7nXRr2ltgHxxV4zia+Dh40kOeiooDSZsCnViak8ixFiL5i9y0E7DO97XB0TEQ/nayMg==",
+  "dgSpecHash": "CsU8KImUCdH0Qih7uMT3yGyMHUuVURjhplg1DPjAozGsOZdFqKwxVPyGehdxsfEB31erbbEZC2laqATMn9oMsg==",
   "success": true,
   "projectFilePath": "/Users/christianwebber/Dropbox/Projects/CrossCommands/test/automated/CrossCommands.Test/CrossCommands.Test.csproj",
   "expectedPackageFiles": [

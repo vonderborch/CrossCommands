@@ -1,24 +1,24 @@
 ﻿<Properties StartupConfiguration="{1C7E8046-02F5-4CD7-889E-046457C72C9F}|Default">
-  <MonoDevelop.Ide.ItemProperties.CrossCommands.Test PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.test.CrossCommands.Test PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="README.md">
+  <MonoDevelop.Ide.ItemProperties.test.CrossCommands.Test PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../usr/local/share/dotnet/sdk/7.0.304/Microsoft.Common.CurrentVersion.targets">
     <Files>
-      <File FileName="source/CrossCommands/CrossCommands.cs" Line="17" Column="65" />
-      <File FileName="source/CrossCommands/OS.cs" Line="6" Column="17" />
-      <File FileName="README.md" Line="11" Column="1" />
+      <File FileName="source/CrossCommands/OS.cs" />
+      <File FileName="README.md" />
+      <File FileName="source/CrossCommands/Cross.cs" />
+      <File FileName="../../../../../usr/local/share/dotnet/sdk/7.0.304/Microsoft.Common.CurrentVersion.targets" Line="1830" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CrossCommands" expanded="True">
             <Node name="SolutionItems" expanded="True" />
-            <Node name="CrossCommands" expanded="True">
-              <Node name="README.md" selected="True" />
-            </Node>
+            <Node name="CrossCommands" expanded="True" />
+            <Node name="CrossCommands.Test" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -32,6 +32,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CrossCommands.Test PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
 </Properties>

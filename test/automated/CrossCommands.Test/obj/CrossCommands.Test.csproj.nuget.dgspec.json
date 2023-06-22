@@ -5,7 +5,7 @@
   },
   "projects": {
     "/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj": {
-      "version": "1.0.0",
+      "version": "1.1.0",
       "restore": {
         "projectUniqueName": "/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj",
         "projectName": "CrossCommands",
@@ -17,15 +17,15 @@
           "/Users/christianwebber/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -36,8 +36,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -71,15 +71,15 @@
           "/Users/christianwebber/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
               "/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj": {
                 "projectPath": "/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj"
@@ -94,8 +94,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",

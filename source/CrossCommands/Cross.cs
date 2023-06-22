@@ -3,6 +3,8 @@ using Microsoft.VisualBasic;
 using System.Diagnostics;
 using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
+using System.Security.Cryptography;
 
 namespace CrossCommands
 {
@@ -57,10 +59,40 @@ namespace CrossCommands
         /// <param name="arguments">Arguments for the command</param>
         /// <param name="waitForCompletion">True to wait for the command to finish, False otherwise</param>
         /// <param name="raiseOnError">True to raise on error, False otherwise</param>
+        /// <param name="createNewWindow">True to create a new window, False otherwise</param>
+        /// <param name="useShellExecute">True to use shell execution, False otherwise</param>
+        /// <param name="redirectStandardInput">True to redirect input, False otherwise</param>
+        /// <param name="redirectStandardOutput">True to redirect output, False otherwise</param>
+        /// <param name="redirectStandardError">True to redirect error, False otherwise</param>
+        /// <param name="standardOutputMethod">The method to use for standard error</param>
+        /// <param name="errorOutputMethod">The method to use for standard input</param>
         /// <returns>True if command completed without error, False otherwise</returns>
         /// <exception cref="NotImplementedException">The OS is unsupported by CrossCommands</exception>
-        public bool RunCommand(string directory, string command, List<string>? arguments = null, bool waitForCompletion = true, bool raiseOnError = true)
+        public bool RunCommand(
+            string directory,
+            string command,
+            List<string>? arguments = null,
+            bool waitForCompletion = true,
+            bool raiseOnError = true,
+            bool createNewWindow = false,
+            bool useShellExecute = true,
+            bool redirectStandardInput = false,
+            bool redirectStandardOutput = false,
+            bool redirectStandardError = false,
+            DataReceivedEventHandler? standardOutputMethod = null,
+            DataReceivedEventHandler? errorOutputMethod = null
+        )
         {
+            // parameter error checking
+            if (redirectStandardOutput && standardOutputMethod == null)
+            {
+                throw new ArgumentNullException(nameof(standardOutputMethod));
+            }
+            if (redirectStandardError && errorOutputMethod == null)
+            {
+                throw new ArgumentNullException(nameof(errorOutputMethod));
+            }
+
             // format the command and arguments
             var actualCommand = command;
             if (arguments?.Count > 0)
@@ -87,11 +119,7 @@ namespace CrossCommands
                         throw new NotImplementedException("CrossCommands only currently supports executing .sh scripts on macOS!");
                     }
                     startInfo.FileName = "osascript";
-                    startInfo.UseShellExecute = true;
-                    startInfo.CreateNoWindow = false;
                     startInfo.Verb = "runas";
-                    startInfo.RedirectStandardOutput = false;
-                    startInfo.RedirectStandardInput = false;
                     actualCommand = Path.Combine(directory, actualCommand);
                     actualCommand = $"-e 'tell application \"Terminal\" to activate' -e 'tell application \"Terminal\" to do script \"cd \"{directory}\" && sh {actualCommand}\"'";
                     break;
@@ -107,6 +135,13 @@ namespace CrossCommands
                     throw new NotImplementedException("CrossCommands is not implemented for your operating system!");
             }
 
+            // common parameters
+            startInfo.CreateNoWindow = !createNewWindow;
+            startInfo.UseShellExecute = useShellExecute;
+            startInfo.RedirectStandardError = redirectStandardError;
+            startInfo.RedirectStandardInput = redirectStandardInput;
+            startInfo.RedirectStandardOutput = redirectStandardOutput;
+
             // try executing the command...
             try
             {
@@ -115,6 +150,16 @@ namespace CrossCommands
                 {
                     StartInfo = startInfo,
                 };
+
+                if (redirectStandardError)
+                {
+                    process.ErrorDataReceived += errorOutputMethod;
+                }
+                if (redirectStandardOutput)
+                {
+                    process.OutputDataReceived += standardOutputMethod;
+                }
+
                 process.Start();
                 if (waitForCompletion)
                 {
