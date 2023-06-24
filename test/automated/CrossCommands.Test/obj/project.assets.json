@@ -965,7 +965,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "CrossCommands/1.1.0": {
+      "CrossCommands/1.1.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
@@ -3879,7 +3879,7 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "CrossCommands/1.1.0": {
+    "CrossCommands/1.1.1": {
       "type": "project",
       "path": "../../../source/CrossCommands/CrossCommands.csproj",
       "msbuildProject": "../../../source/CrossCommands/CrossCommands.csproj"
@@ -3887,7 +3887,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "CrossCommands >= 1.1.0",
+      "CrossCommands >= 1.1.1",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "NUnit >= 3.13.3",
       "NUnit3TestAdapter >= 4.2.1"
