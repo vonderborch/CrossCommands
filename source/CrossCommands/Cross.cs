@@ -151,12 +151,20 @@ namespace CrossCommands
                     StartInfo = startInfo,
                 };
 
-                if (redirectStandardError)
+                if (errorOutputMethod != null)
                 {
+                    if (!redirectStandardError)
+                    {
+                        throw new ArgumentException($"{nameof(redirectStandardError)} must be true if {nameof(errorOutputMethod)} is set!");
+                    }
                     process.ErrorDataReceived += errorOutputMethod;
                 }
-                if (redirectStandardOutput)
+                if (standardOutputMethod != null)
                 {
+                    if (!redirectStandardOutput)
+                    {
+                        throw new ArgumentException($"{nameof(redirectStandardOutput)} must be true if {nameof(standardOutputMethod)} is set!");
+                    }
                     process.OutputDataReceived += standardOutputMethod;
                 }
 

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.1.0",
     "restore": {
-      "projectUniqueName": "/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj",
+      "projectUniqueName": "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj",
       "projectName": "CrossCommands",
-      "projectPath": "/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj",
+      "projectPath": "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj",
       "packagesPath": "/Users/christianwebber/.nuget/packages/",
-      "outputPath": "/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/obj/",
+      "outputPath": "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/source/CrossCommands/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/christianwebber/.nuget/NuGet/NuGet.Config"

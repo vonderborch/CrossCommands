@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/christianwebber/Dropbox/Projects/CrossCommands/test/automated/CrossCommands.Test/CrossCommands.Test.csproj": {}
+    "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/test/automated/CrossCommands.Test/CrossCommands.Test.csproj": {}
   },
   "projects": {
-    "/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj": {
+    "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj": {
       "version": "1.1.0",
       "restore": {
-        "projectUniqueName": "/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj",
+        "projectUniqueName": "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj",
         "projectName": "CrossCommands",
-        "projectPath": "/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj",
+        "projectPath": "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj",
         "packagesPath": "/Users/christianwebber/.nuget/packages/",
-        "outputPath": "/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/obj/",
+        "outputPath": "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/source/CrossCommands/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/christianwebber/.nuget/NuGet/NuGet.Config"
@@ -58,14 +58,14 @@
         }
       }
     },
-    "/Users/christianwebber/Dropbox/Projects/CrossCommands/test/automated/CrossCommands.Test/CrossCommands.Test.csproj": {
+    "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/test/automated/CrossCommands.Test/CrossCommands.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/christianwebber/Dropbox/Projects/CrossCommands/test/automated/CrossCommands.Test/CrossCommands.Test.csproj",
+        "projectUniqueName": "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/test/automated/CrossCommands.Test/CrossCommands.Test.csproj",
         "projectName": "CrossCommands.Test",
-        "projectPath": "/Users/christianwebber/Dropbox/Projects/CrossCommands/test/automated/CrossCommands.Test/CrossCommands.Test.csproj",
+        "projectPath": "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/test/automated/CrossCommands.Test/CrossCommands.Test.csproj",
         "packagesPath": "/Users/christianwebber/.nuget/packages/",
-        "outputPath": "/Users/christianwebber/Dropbox/Projects/CrossCommands/test/automated/CrossCommands.Test/obj/",
+        "outputPath": "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/test/automated/CrossCommands.Test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/christianwebber/.nuget/NuGet/NuGet.Config"
@@ -81,8 +81,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj": {
-                "projectPath": "/Users/christianwebber/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj"
+              "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj": {
+                "projectPath": "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj"
               }
             }
           }

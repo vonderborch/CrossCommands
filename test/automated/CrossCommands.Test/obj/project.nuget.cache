@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CsU8KImUCdH0Qih7uMT3yGyMHUuVURjhplg1DPjAozGsOZdFqKwxVPyGehdxsfEB31erbbEZC2laqATMn9oMsg==",
+  "dgSpecHash": "cxlEeRkGQ7//7dOh/PQhOG020MX2XK2ICnDCGqYt5GMA5zOLI9bgiJhpsDMjnFDlzckI9Qk1akjEhShIX0grxQ==",
   "success": true,
-  "projectFilePath": "/Users/christianwebber/Dropbox/Projects/CrossCommands/test/automated/CrossCommands.Test/CrossCommands.Test.csproj",
+  "projectFilePath": "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/test/automated/CrossCommands.Test/CrossCommands.Test.csproj",
   "expectedPackageFiles": [
     "/Users/christianwebber/.nuget/packages/microsoft.codecoverage/17.3.2/microsoft.codecoverage.17.3.2.nupkg.sha512",
     "/Users/christianwebber/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
