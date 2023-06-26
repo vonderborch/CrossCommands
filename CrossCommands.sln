@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossCommands", "source\Cro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossCommands.Test", "test\automated\CrossCommands.Test\CrossCommands.Test.csproj", "{1C7E8046-02F5-4CD7-889E-046457C72C9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossCommands.Dev.Test", "test\manual\CrossCommands.Dev.Test\CrossCommands.Dev.Test.csproj", "{47027CD6-5473-470F-A954-8CEA40076651}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{1C7E8046-02F5-4CD7-889E-046457C72C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C7E8046-02F5-4CD7-889E-046457C72C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C7E8046-02F5-4CD7-889E-046457C72C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47027CD6-5473-470F-A954-8CEA40076651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47027CD6-5473-470F-A954-8CEA40076651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47027CD6-5473-470F-A954-8CEA40076651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47027CD6-5473-470F-A954-8CEA40076651}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{5AA920E8-8BF1-420F-AFAF-CFB9D7C264B6} = {41CA25B2-C764-4EEC-8800-667CEA04C231}
 		{D0C0940A-7311-4FE2-B253-49AD357A111D} = {9218789B-72B8-4679-A8F1-338CC4FD0167}
 		{1C7E8046-02F5-4CD7-889E-046457C72C9F} = {C63261C3-1D72-4979-9AEC-6560362E7191}
+		{47027CD6-5473-470F-A954-8CEA40076651} = {5AA920E8-8BF1-420F-AFAF-CFB9D7C264B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {GUID05}
