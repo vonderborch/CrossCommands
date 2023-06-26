@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/test/automated/CrossCommands.Test/CrossCommands.Test.csproj": {}
+    "C:\\Users\\ricky\\Dropbox\\Projects\\CrossCommands\\test\\automated\\CrossCommands.Test\\CrossCommands.Test.csproj": {}
   },
   "projects": {
-    "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj": {
-      "version": "1.1.1",
+    "C:\\Users\\ricky\\Dropbox\\Projects\\CrossCommands\\source\\CrossCommands\\CrossCommands.csproj": {
+      "version": "1.1.2",
       "restore": {
-        "projectUniqueName": "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj",
+        "projectUniqueName": "C:\\Users\\ricky\\Dropbox\\Projects\\CrossCommands\\source\\CrossCommands\\CrossCommands.csproj",
         "projectName": "CrossCommands",
-        "projectPath": "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj",
-        "packagesPath": "/Users/christianwebber/.nuget/packages/",
-        "outputPath": "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/source/CrossCommands/obj/",
+        "projectPath": "C:\\Users\\ricky\\Dropbox\\Projects\\CrossCommands\\source\\CrossCommands\\CrossCommands.csproj",
+        "packagesPath": "C:\\Users\\ricky\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricky\\Dropbox\\Projects\\CrossCommands\\source\\CrossCommands\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/christianwebber/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ricky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,35 +60,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/test/automated/CrossCommands.Test/CrossCommands.Test.csproj": {
+    "C:\\Users\\ricky\\Dropbox\\Projects\\CrossCommands\\test\\automated\\CrossCommands.Test\\CrossCommands.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/test/automated/CrossCommands.Test/CrossCommands.Test.csproj",
+        "projectUniqueName": "C:\\Users\\ricky\\Dropbox\\Projects\\CrossCommands\\test\\automated\\CrossCommands.Test\\CrossCommands.Test.csproj",
         "projectName": "CrossCommands.Test",
-        "projectPath": "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/test/automated/CrossCommands.Test/CrossCommands.Test.csproj",
-        "packagesPath": "/Users/christianwebber/.nuget/packages/",
-        "outputPath": "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/test/automated/CrossCommands.Test/obj/",
+        "projectPath": "C:\\Users\\ricky\\Dropbox\\Projects\\CrossCommands\\test\\automated\\CrossCommands.Test\\CrossCommands.Test.csproj",
+        "packagesPath": "C:\\Users\\ricky\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricky\\Dropbox\\Projects\\CrossCommands\\test\\automated\\CrossCommands.Test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/christianwebber/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ricky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj": {
-                "projectPath": "/Users/christianwebber/Library/CloudStorage/Dropbox/Projects/CrossCommands/source/CrossCommands/CrossCommands.csproj"
+              "C:\\Users\\ricky\\Dropbox\\Projects\\CrossCommands\\source\\CrossCommands\\CrossCommands.csproj": {
+                "projectPath": "C:\\Users\\ricky\\Dropbox\\Projects\\CrossCommands\\source\\CrossCommands\\CrossCommands.csproj"
               }
             }
           }
@@ -126,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

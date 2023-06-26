@@ -2,22 +2,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{GUID000000000}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{302708C8-D1B4-41FD-970E-85EB2B68BAF6}"
 	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
 		CODEOWNERS = CODEOWNERS
 		LICENSE = LICENSE
 		README.md = README.md
-		.gitattributes = .gitattributes
-		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{9218789b-72b8-4679-a8f1-338cc4fd0167}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{9218789B-72B8-4679-A8F1-338CC4FD0167}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{41ca25b2-c764-4eec-8800-667cea04c231}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{41CA25B2-C764-4EEC-8800-667CEA04C231}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "automated", "automated", "{c63261c3-1d72-4979-9aec-6560362e7191}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "automated", "automated", "{C63261C3-1D72-4979-9AEC-6560362E7191}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "manual", "manual", "{5aa920e8-8bf1-420f-afaf-cfb9d7c264b6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "manual", "manual", "{5AA920E8-8BF1-420F-AFAF-CFB9D7C264B6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossCommands", "source\CrossCommands\CrossCommands.csproj", "{D0C0940A-7311-4FE2-B253-49AD357A111D}"
 EndProject
@@ -42,14 +42,13 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{D0C0940A-7311-4FE2-B253-49AD357A111D} = {9218789b-72b8-4679-a8f1-338cc4fd0167}
-		{1C7E8046-02F5-4CD7-889E-046457C72C9F} = {41ca25b2-c764-4eec-8800-667cea04c231}
+		{C63261C3-1D72-4979-9AEC-6560362E7191} = {41CA25B2-C764-4EEC-8800-667CEA04C231}
+		{5AA920E8-8BF1-420F-AFAF-CFB9D7C264B6} = {41CA25B2-C764-4EEC-8800-667CEA04C231}
+		{D0C0940A-7311-4FE2-B253-49AD357A111D} = {9218789B-72B8-4679-A8F1-338CC4FD0167}
+		{1C7E8046-02F5-4CD7-889E-046457C72C9F} = {C63261C3-1D72-4979-9AEC-6560362E7191}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {GUID05}
-	EndGlobalSection
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		test\manual\Velentr.DevEnv\Velentr.DevEnv.projitems*{227895c9-a4fd-43ed-807b-87af42d69a34}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		version = 1.1.0
